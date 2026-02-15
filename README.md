@@ -28,10 +28,10 @@ You'll need Node.js (v18 or higher recommended) and Yarn installed on your machi
    yarn install
    ```
 
-3. Create a `.env` file in the root directory:
+3. Copy `.env.example` to `.env` and update with your API URL:
 
-   ```env
-   VITE_API_TARGET=https://your-api-url.com
+   ```bash
+   cp .env.example .env
    ```
 
 4. Fire it up:
